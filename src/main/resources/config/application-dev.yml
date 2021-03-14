@@ -37,9 +37,9 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://localhost:3306/projectTestJenkinsSonar?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
-    username: root
-    password:
+    url: jdbc:mysql://localhost:3306/test_jenkins_db?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+    username: dev_ops
+    password: passer
     hikari:
       poolName: Hikari
       auto-commit: false
@@ -64,7 +64,7 @@ spring:
     cache: false
 
 server:
-  port: 8080
+  port: 8181
 
 # ===================================================================
 # JHipster specific properties
