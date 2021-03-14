@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.devops.test"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "monolith",
+    "baseName": "projectTestJenkinsSonar",
+    "packageName": "com.devops.test",
+    "packageFolder": "com/devops/test",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OTExNGU2OTZhZWNkYTA4N2FjNmFjYThiNTc4OTViZjYxZjVkNDBiMjk3YjMyMzllYzMyNjI0OTc4MTkzNjJhMTMxMDFkNTc3MTViNmY1NTI1OWM5ZWQyYzYyNjAyMDU0YmQwZTNmMGYzM2QyYTdjNzM3M2U2YjNiNDhmZTgwZDk=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1615756509097,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
